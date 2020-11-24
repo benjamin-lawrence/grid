@@ -1,0 +1,32 @@
+html, body, div, head, header, a {
+    margin: 0px, 0px, 0px, 0px;
+    padding: 0px, 0px, 0px, 0px;
+}
+
+body {
+    background-color:#ccc;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+width: 550px;
+height: 550px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 100px;
+}
+
+.boxes {
+width: 120px;
+height: 120px;
+background-color: black;
+
+}
+
+.boxesChange {
+width: 120px;
+height: 120px;
+background-color: #666;
+}
